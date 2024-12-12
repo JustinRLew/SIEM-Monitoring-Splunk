@@ -1,6 +1,6 @@
 # SIEM Monitoring Project with Splunk
 
-This project demonstrates the implementation of a Security Information and Event Management (SIEM) system using **Splunk**. The purpose of the project is to monitor a simulated network, detect security threats, and respond to incidents in real-time. This project showcases skills in deploying and configuring a SIEM solution, creating detection rules, visualizing data, and automating alerts.
+This project demonstrates the implementation of a Security Information and Event Management (SIEM) system using **Splunk**. The purpose of the project is to monitor a simulated network, detect security threats, and respond to incidents in real-time. This project showcases deploying and configuring a SIEM solution, creating detection rules, visualizing data, and automating alerts.
 
 ---
 
@@ -115,8 +115,8 @@ Example Dashboard Screenshot
 - Distributed Architecture:
 Add indexers and search heads for scalability.
 
-Threat Intelligence Integration:
-- Use external feeds to flag known malicious IPs.
-- 
-Automated Responses:
+- Threat Intelligence Integration:
+Use external feeds to flag known malicious IPs.
+
+- Automated Responses:
 Automate IP blocking and account locking for critical alerts.
