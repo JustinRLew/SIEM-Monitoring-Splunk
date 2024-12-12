@@ -99,21 +99,19 @@ Example Dashboard Screenshot
 
 
 ### Testing and Validation  
-Simulated Security Events
-Brute Force Attack Simulation:
+** Simulated Security Events
+  Brute Force Attack Simulation:
+    - Use a PowerShell script to generate failed login attempts.
+    - Verify if alerts are triggered in Splunk.
 
-Use a PowerShell script to generate failed login attempts.
-Verify if alerts are triggered in Splunk.
+** Unauthorized Access Simulation:
+    Attempt to access restricted files or directories.
 
-Unauthorized Access Simulation:
-
-Attempt to access restricted files or directories.
-
-Results
+** Results
 - Alerts triggered as expected.
 - Dashboards updated in real-time with logged events.
 
-Future Enhancements
+###Future Enhancements
 - Distributed Architecture:
 Add indexers and search heads for scalability.
 
