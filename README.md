@@ -84,8 +84,9 @@ Rule:
 Alert when sensitive files or directories are accessed without proper permissions.
 Query:
 
-spl
+```spl
 index="windows-security" EventCode=4656 Accesses="WRITE_DAC" | table Account_Name, Object_Name
+```
 
 ### Dashboards and Visualization
 
@@ -109,13 +110,15 @@ Unauthorized Access Simulation:
 Attempt to access restricted files or directories.
 
 Results
-Alerts triggered as expected.
-Dashboards updated in real-time with logged events.
+- Alerts triggered as expected.
+- Dashboards updated in real-time with logged events.
 
 Future Enhancements
-Distributed Architecture:
+- Distributed Architecture:
 Add indexers and search heads for scalability.
+
 Threat Intelligence Integration:
-Use external feeds to flag known malicious IPs.
+- Use external feeds to flag known malicious IPs.
+- 
 Automated Responses:
 Automate IP blocking and account locking for critical alerts.
