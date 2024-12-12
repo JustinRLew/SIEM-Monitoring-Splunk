@@ -77,6 +77,7 @@ Trigger an alert when there are more than 5 failed login attempts within 5 minut
 **Query:**  
 ```spl
 index="windows-security" EventCode=4625 | stats count by Account_Name
+```
 
 ### 2. Unauthorized Access
 Rule:
